@@ -40,3 +40,94 @@ a {
     color-scheme: dark;
   }
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+}
+
+th {
+  background-color: #f0f0f0;
+  color: #000;
+  font-weight: bold;
+  border: 1px solid #d0d0d0;
+  text-align: left;
+  padding: 8px;
+  font-size: 12px;
+}
+
+td {
+  border: 1px solid #d0d0d0;
+  padding: 8px;
+  text-align: left;
+  
+}
+
+input {
+  color: #000;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  padding: 4px;
+  outline: none;
+}
+
+input:focus {
+  border-bottom: 2px solid #4CAF50;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #e6e6e6;
+}
+
+table {
+  border: 1px solid #d0d0d0;
+}
+
+
+.file-upload {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  width: 100%;
+  position: relative; 
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: flex;
+  width: 150px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #4caf50; 
+  color: white; 
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: #45a049; 
+}
+
+p {
+  font-size: 14px;
+  color: #4caf50;
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+}
+
+
